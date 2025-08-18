@@ -1,2 +1,4 @@
 .idea/
-Procfile/
+__pycache__/
+*.pkl
+Procfile
