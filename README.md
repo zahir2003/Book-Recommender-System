@@ -118,10 +118,8 @@ Feel free to **fork this repo** and improve the project.
 
 ## 📬 Contact  
 👤 **Sk Mahiduzzaman**  
-📧 Email: [mohiduz03@gmail.com](mailto:mohiduz03@gmail.com)  
-💼 LinkedIn: [www.linkedin.com/in/sk-mahiduzzaman](https://www.linkedin.com/in/sk-mahiduzzaman)  
-🌐 GitHub: [zahir2003](https://github.com/zahir2003)  
-
+📧 Email: [Email](mailto:mohiduz03@gmail.com)  
+💼 LinkedIn: [LinkedIn](https://www.linkedin.com/in/sk-mahiduzzaman)  
 
 ---
 
