@@ -1,12 +1,16 @@
-from flask import Flask, render_template, request
+import os
 import pickle
 import numpy as np
+from flask import Flask, render_template, request
 
-# Load data
-popular_df = pickle.load(open('popular.pkl', 'rb'))
-pt = pickle.load(open('pt.pkl', 'rb'))
-books = pickle.load(open('books.pkl', 'rb'))
-similarity_scores = pickle.load(open('similarity_scores.pkl', 'rb'))
+# Base directory of this file (so paths work on Render too)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Load pickle files safely from project root
+popular_df = pickle.load(open(os.path.join(BASE_DIR, "popular.pkl"), "rb"))
+pt = pickle.load(open(os.path.join(BASE_DIR, "pt.pkl"), "rb"))
+books = pickle.load(open(os.path.join(BASE_DIR, "books.pkl"), "rb"))
+similarity_scores = pickle.load(open(os.path.join(BASE_DIR, "similarity_scores.pkl"), "rb"))
 
 # Initialize app
 app = Flask(__name__)
